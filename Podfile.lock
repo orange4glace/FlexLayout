@@ -1,12 +1,15 @@
 PODS:
-  - FlexLayout (2.0.05)
+  - FlexLayout (2.0.06):
+    - Yoga
   - PinLayout (1.10.5)
   - SwiftLint (0.54.0)
+  - Yoga (1.14.0)
 
 DEPENDENCIES:
   - FlexLayout (from `./`)
   - PinLayout
   - SwiftLint
+  - Yoga (from `https://github.com/orange4glace/yoga-react-0.71.19.git`, branch `main`)
 
 SPEC REPOS:
   trunk:
@@ -16,12 +19,21 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   FlexLayout:
     :path: "./"
+  Yoga:
+    :branch: main
+    :git: https://github.com/orange4glace/yoga-react-0.71.19.git
+
+CHECKOUT OPTIONS:
+  Yoga:
+    :commit: 65d4a1ebefd9294500d0dbb4b2a7fd311e9deb45
+    :git: https://github.com/orange4glace/yoga-react-0.71.19.git
 
 SPEC CHECKSUMS:
-  FlexLayout: 1cdf0b71a0d06669a497c5a80a355e76129a1025
+  FlexLayout: 13f12f4d33797556344f0b1e477839be213a3bd5
   PinLayout: f6c2b63a5a5b24864064e1d15c67de41b4e74748
   SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
+  Yoga: 9ed3599ecb50df27f8c7cb5353523c9f7e4180f7
 
-PODFILE CHECKSUM: a0f152e938c551fd661bee3ffe26ccc6175f088b
+PODFILE CHECKSUM: 94a2259f35c24dda44c775f26669ab58d666824e
 
 COCOAPODS: 1.14.3
