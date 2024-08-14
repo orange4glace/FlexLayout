@@ -1,4 +1,3 @@
-Invalid Podspec file
 
 Pod::Spec.new do |spec|
   spec.name         = "FlexLayout"
